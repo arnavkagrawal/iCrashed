@@ -132,7 +132,7 @@ public class speedit extends Service implements SensorEventListener{
 					e.printStackTrace();
 				}
 
-				
+				onDestroy();
 			}
 			//tvx.setText(Double.toString(net_speed));
 			//tvy.setText(Double.toString(speedy));
